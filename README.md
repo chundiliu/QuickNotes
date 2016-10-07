@@ -1,6 +1,21 @@
-[Before I build a blog, I need to make some quick notes here]
-<q1 >
-<h1>Leetcode 366. Find Leaves of Binary Tree</h1>
-<url>https://leetcode.com/problems/find-leaves-of-binary-tree/</url>
+Quick Note Before Blog is built.
+---------------------------------
+# [Q1: 366. Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/)
+### Pointer Pass in a function call
+		```  C++
+		void function(TreeNode *root) {
+			root = NULL;
+			root->left = NULL;
+			root->right = NULL;
 
-</q1>
+		}
+		
+		int main() {
+			//root!=NULL, root->left!=NULL;, root->right!=NULL;
+			function(root);
+			cout<<root==NULL<<root->left==NULL<<root->right==NULL<<endl;
+		
+		}
+		```
+
+		*result:*011
