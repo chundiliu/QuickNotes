@@ -2,7 +2,7 @@ Quick Note Before Blog is built.
 ---------------------------------
 # [Q1: 366. Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/)
 ### Pointer Pass in a function call
-		```  C++
+		```C++
 		void function(TreeNode *root) {
 			root = NULL;
 			root->left = NULL;
@@ -19,3 +19,11 @@ Quick Note Before Blog is built.
 		```
 
 		*result:*011
+aaaa
+	dddd
+```C++
+int main() {
+	int a =  max(12,32);
+	return 100;
+}
+```
